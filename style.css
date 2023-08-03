@@ -1,0 +1,33 @@
+form{
+    max-width: 600px;
+}
+.form__input__box:not(:last-child){
+    margin-bottom: 20px;
+}
+.form_input_inp{
+    width: 100%;
+    padding: 14px 30px;
+    border-radius:0 ;
+    border: 1px solid blue;
+    width: 100%;
+    padding: 14px 30px;
+}
+.form_input_inp:focus{/*При наведении*/
+    outline: yellow 3px solid;
+}
+.form-btn{
+  background-color:blue ;
+  padding: 14px 30px;
+  border-radius: 0;
+  outline:none ;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  transition:background-color .3s ;
+}
+.form-btn:hover{
+    background-color:rgb(90, 90, 240) ;
+}
+.form-btn:focus{
+    outline: yellow 3px solid;
+}
